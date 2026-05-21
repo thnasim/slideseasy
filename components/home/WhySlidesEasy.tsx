@@ -1,7 +1,7 @@
 const FEATURES = [
   {
     number: '01',
-    title: 'Designed for your brand, not everyone's',
+    title: "Designed for your brand, not everyone's",
     body: 'We study your brand guidelines before opening a single file. Every colour, font, spacing rule, and visual language is embedded into the template — no generic placeholders.',
     imagePlaceholder: 'Brand identity visual',
   },
