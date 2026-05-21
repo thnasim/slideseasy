@@ -1,6 +1,5 @@
 import { defineConfig } from 'sanity'
 import { structureTool } from 'sanity/structure'
-import { visionTool } from '@sanity/vision'
 import { schemaTypes } from './sanity/schemas'
 
 export default defineConfig({
@@ -25,7 +24,6 @@ export default defineConfig({
               .child(S.documentTypeList('post').title('Blog Posts')),
           ]),
     }),
-    visionTool(),
   ],
 
   schema: {
